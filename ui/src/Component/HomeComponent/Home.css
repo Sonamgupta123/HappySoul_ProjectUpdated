@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Pastel mental health theme colors */
 :root {
   --primary: #6a8caf;
@@ -114,4 +115,122 @@
     grid-template-columns: 1fr;
     padding: 0 10px;
   }
+=======
+/* Pastel mental health theme colors */
+:root {
+  --primary: #6a8caf;
+  /* calm blue */
+  --accent: #b8d8ba;
+  /* soft green */
+  --light-pink: #f5e6e8;
+  /* light pink background */
+  --text-dark: #2f3e46;
+}
+
+.about-section,
+.events-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: transparent;
+  /* Changed from white to let gradient flow through if any */
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 40px;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: var(--primary);
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  width: 75%;
+  margin: auto;
+  color: #4f5d64;
+  line-height: 1.8;
+}
+
+/* Events Section */
+.events-section {
+  position: relative;
+  z-index: 10;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 40px;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event-card {
+  padding: 35px 25px;
+  border-radius: 20px;
+  text-align: left;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-top: 4px solid var(--accent);
+}
+
+.event-card h3 {
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.event-card p {
+  color: #546a76;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.event-card span {
+  font-weight: 600;
+  color: var(--primary);
+  display: inline-block;
+  padding: 6px 12px;
+  background: rgba(106, 140, 175, 0.1);
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+
+.event-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--primary);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .events-section,
+  .about-section {
+    padding: 50px 15px;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+>>>>>>> dddd640725d6965bfe90ae355c0707a5a58cdc01
 }

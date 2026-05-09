@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .admin-dashboard-container {
   padding-top: 120px;
   min-height: 90vh;
@@ -93,3 +94,100 @@
   background-color: rgba(185, 217, 186, 0.2);
   transition: background-color 0.3s ease;
 }
+=======
+.admin-dashboard-container {
+  padding-top: 120px;
+  min-height: 90vh;
+  background: #e8f9f1;
+  padding-bottom: 60px;
+}
+
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.welcome-card {
+  background: linear-gradient(135deg, rgba(185, 217, 186, 0.4), rgba(255, 255, 255, 0.8));
+  border-radius: 18px;
+  padding: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.welcome-card h2 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #0e6b45;
+}
+
+.welcome-card p {
+  color: #2c5b46;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.stats-card {
+  background: linear-gradient(135deg, rgba(162, 213, 198, 0.3), rgba(255, 255, 255, 0.9));
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.stats-card h4 {
+  margin: 0;
+  font-weight: 600;
+  color: #0e6b45;
+}
+
+.stats-card .count {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1da36a;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.table-title {
+  color: #0e6b45;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+}
+
+.table-responsive {
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.admin-table {
+  background: transparent;
+  margin: 0;
+}
+
+.admin-table th {
+  background: rgba(185, 217, 186, 0.8);
+  color: #1a4a38;
+  font-weight: 600;
+  border-bottom: 2px solid #a2d5c6;
+  padding: 15px;
+  text-align: left;
+}
+
+.admin-table td {
+  vertical-align: middle;
+  padding: 15px;
+  color: #2c5b46;
+  border-bottom: 1px solid rgba(162, 213, 198, 0.3);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(185, 217, 186, 0.2);
+  transition: background-color 0.3s ease;
+}
+>>>>>>> dddd640725d6965bfe90ae355c0707a5a58cdc01

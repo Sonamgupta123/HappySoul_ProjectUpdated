@@ -17,7 +17,10 @@
     "babel-plugin-add-module-exports": "^1.0.4",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
+<<<<<<< HEAD
     "dotenv": "^17.4.2",
+=======
+>>>>>>> dddd640725d6965bfe90ae355c0707a5a58cdc01
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.15.1",

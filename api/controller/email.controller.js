@@ -15,7 +15,7 @@ var mailOptions = {
   from: 'sonamflower34@gmail.com',
   to: email,
   subject: 'Verification Mail',
-  html:  "<h1>Welcome to HappySoul</h1><p>You have successfully register to our site , your login credentials are attached below</p><h2>Email:"+email+"</h2><h2>Password:"+password+"</h2><h1>Click on the link below to verify your account</h1>http://localhost:3000/verify/"+email
+  html:  "<h1>Welcome to HappySoul</h1><p>You have successfully register to our site , your login credentials are attached below</p><h2>Email:"+email+"</h2><h2>Password:"+password+"</h2><h1>Click on the link below to verify your account</h1>" + (process.env.FRONTEND_URL || "http://localhost:3000") + "/verify/"+email
 
 };
 

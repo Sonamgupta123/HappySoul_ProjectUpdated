@@ -36,7 +36,7 @@ function ContactForm() {
     }
 
     // Submit to backend
-    axios.post('http://localhost:3001/contact/send', form)
+    axios.post('https://happysoul-backend.onrender.com/contact/send', form)
       .then(() => {
         setOutput('Message sent successfully!');
         setForm({ firstName: '', lastName: '', email: '', message: '' });

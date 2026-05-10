@@ -9,7 +9,7 @@ function AdminDash() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/user/fetch")
+      .get("https://happysoul-backend.onrender.com/user/fetch")
       .then((res) => setUsers(res.data))
       .catch((err) => console.log(err));
   }, []);

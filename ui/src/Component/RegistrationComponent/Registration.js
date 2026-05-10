@@ -47,7 +47,7 @@ function Register() {
     const submissionData = { ...form, city: finalCity };
 
     axios
-      .post("http://localhost:3001/user/register", submissionData)
+      .post("https://happysoul-backend.onrender.com/user/register", submissionData)
       .then(() => {
         setOutput("✔ Registration Successful! Please check your email for verification.");
         setTimeout(() => navigate("/login"), 3500);

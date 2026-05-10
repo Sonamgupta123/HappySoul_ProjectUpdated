@@ -15,7 +15,7 @@ function MoodTracker() {
     setSelectedMood(mood.label);
 
     try {
-      const res = await fetch("http://localhost:3001/mood/add", {
+      const res = await fetch("https://happysoul-backend.onrender.com/mood/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

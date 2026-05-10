@@ -7,7 +7,7 @@ function ContactQueries() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3001/contact/fetch") // <-- apna route lagao
+      .get("https://happysoul-backend.onrender.com/contact/fetch") // <-- apna route lagao
       .then((res) => setQueries(res.data))
       .catch((err) => console.log(err));
   }, []);

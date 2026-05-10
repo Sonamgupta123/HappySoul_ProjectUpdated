@@ -10,7 +10,7 @@ function AdminMoodTracker() {
 
  useEffect(() => {
   axios
-    .get("http://localhost:3001/mood/admin/all")
+    .get("https://happysoul-backend.onrender.com/mood/admin/all")
     .then((res) => {
       setMoods(res.data.moods);
       setLoading(false);

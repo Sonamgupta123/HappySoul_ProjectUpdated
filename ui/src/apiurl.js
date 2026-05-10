@@ -1,1 +1,1 @@
-export const userApi ="http://localhost:3001/user/";
+export const userApi ="https://happysoul-backend.onrender.com/user/";
